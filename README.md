@@ -17,7 +17,9 @@ imagen del proyecto
 
 
 
-Proyecto hecho por:
-Alam xavier
+Proyecto hecho por
+Alam xavier,
 Benjamin Torres
+
 Curso:4To D
+
