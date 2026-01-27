@@ -8,7 +8,8 @@ El formulario permite ingresar información básica de los estudiantes.
 imagen del proyecto
 
 
-<img width="775" height="643" alt="image" src="https://github.com/user-attachments/assets/c0d350be-8e1b-4f09-8058-a689033ab087" />
+<img width="863" height="642" alt="image" src="https://github.com/user-attachments/assets/88727b62-56b9-402c-b654-c7df839d8b3a" />
+
 
 
 
