@@ -1,0 +1,143 @@
+/*tipografia*/
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF5E6; /* Crema suave como Inicio */
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: #8B4513; /* Marrón chocolate elegante */
+}
+
+.productos-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.productos-intro h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.productos-intro p {
+    font-size: 1.2rem;
+    color: #4B2E2A;
+}
+
+/*header*/
+header {
+    background: linear-gradient(135deg, #FFB6C1, #FFC0CB);
+    padding: 40px 0;
+    color: #4B2E2A;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: #4B2E2A;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/*galeria de prodcutos*/
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.product-item {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    text-align: center;
+    max-width: 350px;
+}
+
+.product-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.product-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-item h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5rem;
+    color: #8B4513;
+}
+
+.product-item p {
+    padding: 0 20px;
+    color: #555;
+    min-height: 70px;
+}
+
+.price {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #D2691E; /* Naranja chocolate */
+    margin: 15px 0;
+}
+
+.product-item button {
+    background: #ff4cd8; /* Rosa dulce */
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.product-item button:hover {
+    background: #e03ac6;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #FFB6C1;
+    color: #4B2E2A;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+}
